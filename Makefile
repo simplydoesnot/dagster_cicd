@@ -1,7 +1,7 @@
 locally: 
 	dagster dev
 
-dependencies
+dependencies:
 	uv venv
 	uv pip install -e ".[dev]"
 
