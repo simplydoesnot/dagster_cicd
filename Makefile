@@ -1,8 +1,8 @@
-locally: manifest
-	clear
+locally: 
 	dagster dev
 
 dependencies
+	uv venv
 	uv pip install -e ".[dev]"
 
 update_packages:
