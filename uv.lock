@@ -167,7 +167,7 @@ wheels = [
 [[package]]
 name = "dagster-cicd"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "dagster" },
     { name = "dagster-webserver" },
