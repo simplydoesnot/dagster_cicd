@@ -28,3 +28,6 @@ build-backend = "setuptools.build_meta"
 [tool.dagster]
 module_name = "gthub_stars.definitions"
 code_location_name = "github_stars"
+
+[tool.setuptools]
+packages = {find = {}}

@@ -1,0 +1,1 @@
+from github_stars.definitions import defs as defs
