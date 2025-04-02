@@ -1,6 +1,3 @@
 load_from:
-  - python_module:
-    module_name: dagster_data_eng
-  - python_module:
-    module_name: github_stars
-    working_directory: github_stars/
+  # - python_module:
+  #     module_name: dagster_data_eng.definitions
