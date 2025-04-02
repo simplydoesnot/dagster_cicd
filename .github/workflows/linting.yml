@@ -13,9 +13,14 @@ jobs:
             - name: Check out git repo
               uses: actions/checkout@v4
             
-            - name: Install python packages
-              run: pip install ruff
+            - name: Setup Python
+              uses: actions/setup-python@v1
+              with:
+                python-version: 3.12
             
-            - name: Run Ruff
-              run: make ruff
+            - name: Install python dependencies
+              uses: wearerequired/lint-action@v2
+              with:
+                black: true
+                flake8: true
         
