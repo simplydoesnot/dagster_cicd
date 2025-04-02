@@ -20,3 +20,11 @@ dev = [
     "dagster-webserver>=1.10.7",
     "pytest>=8.3.5",
 ]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.dagster]
+module_name = "gthub_stars.definitions"
+code_location_name = "github_stars"
